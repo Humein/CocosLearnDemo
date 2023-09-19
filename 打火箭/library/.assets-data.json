@@ -1,0 +1,139 @@
+{
+  "c4d99f9a-8278-4b8b-b7ce-d8995dd71108": {
+    "url": "db://assets/images",
+    "value": {}
+  },
+  "1b30c865-367c-47f0-af6e-457e382bc539": {
+    "url": "db://assets/images/AIM.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1b30c865-367c-47f0-af6e-457e382bc539@6c48a": {
+    "url": "db://assets/images/AIM.png@6c48a",
+    "value": {
+      "depends": [
+        "1b30c865-367c-47f0-af6e-457e382bc539"
+      ]
+    }
+  },
+  "1b30c865-367c-47f0-af6e-457e382bc539@f9941": {
+    "url": "db://assets/images/AIM.png@f9941",
+    "value": {
+      "depends": [
+        "1b30c865-367c-47f0-af6e-457e382bc539@6c48a"
+      ]
+    }
+  },
+  "0389ae2c-67e8-4384-9cac-0b9009720734": {
+    "url": "db://assets/images/Alien.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0389ae2c-67e8-4384-9cac-0b9009720734@6c48a": {
+    "url": "db://assets/images/Alien.png@6c48a",
+    "value": {
+      "depends": [
+        "0389ae2c-67e8-4384-9cac-0b9009720734"
+      ]
+    }
+  },
+  "0389ae2c-67e8-4384-9cac-0b9009720734@f9941": {
+    "url": "db://assets/images/Alien.png@f9941",
+    "value": {
+      "depends": [
+        "0389ae2c-67e8-4384-9cac-0b9009720734@6c48a"
+      ]
+    }
+  },
+  "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c": {
+    "url": "db://assets/images/Peoson.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c@6c48a": {
+    "url": "db://assets/images/Peoson.png@6c48a",
+    "value": {
+      "depends": [
+        "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c"
+      ]
+    }
+  },
+  "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c@f9941": {
+    "url": "db://assets/images/Peoson.png@f9941",
+    "value": {
+      "depends": [
+        "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c@6c48a"
+      ]
+    }
+  },
+  "81c90d3b-7d4c-4dd8-8ad2-f8e583fe3407": {
+    "url": "db://assets/scripts",
+    "value": {}
+  },
+  "ac2ff9fa-5101-4a5a-b79d-510acee57d29": {
+    "url": "db://assets/scripts/GameRoot.ts",
+    "value": {}
+  },
+  "df719170-71b9-4039-b015-e70a656e54e5": {
+    "url": "db://assets/images/Peoson.prefab",
+    "value": {}
+  },
+  "214b62c3-8ec4-4d16-b813-6f8c29fba7e0": {
+    "url": "db://assets/Node.prefab",
+    "value": {}
+  },
+  "097bdad9-16d7-4d6a-9dc8-3094f90b3317": {
+    "url": "db://assets/prefab",
+    "value": {}
+  },
+  "d1a8e965-4021-4a50-977e-82498d4416e7": {
+    "url": "db://assets/prefab/Peoson.prefab",
+    "value": {
+      "depends": [
+        "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c@f9941"
+      ],
+      "dependScripts": []
+    }
+  },
+  "05b8ba32-d7bc-4a77-86c8-6c3481f4a203": {
+    "url": "db://assets/images/arrow.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "05b8ba32-d7bc-4a77-86c8-6c3481f4a203@6c48a": {
+    "url": "db://assets/images/arrow.png@6c48a",
+    "value": {
+      "depends": [
+        "05b8ba32-d7bc-4a77-86c8-6c3481f4a203"
+      ]
+    }
+  },
+  "05b8ba32-d7bc-4a77-86c8-6c3481f4a203@f9941": {
+    "url": "db://assets/images/arrow.png@f9941",
+    "value": {
+      "depends": [
+        "05b8ba32-d7bc-4a77-86c8-6c3481f4a203@6c48a"
+      ]
+    }
+  },
+  "6d06ad4a-5f54-4d83-bcaf-726894183362": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "6d06ad4a-5f54-4d83-bcaf-726894183362",
+        "1b30c865-367c-47f0-af6e-457e382bc539@f9941",
+        "0389ae2c-67e8-4384-9cac-0b9009720734@f9941",
+        "d1a8e965-4021-4a50-977e-82498d4416e7",
+        "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
+      ]
+    }
+  }
+}

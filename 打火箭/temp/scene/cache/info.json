@@ -1,0 +1,9 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "version": "Darwin Kernel Version 22.3.0: Thu Jan  5 20:53:49 PST 2023; root:xnu-8792.81.2~2/RELEASE_X86_64"
+    },
+    "sceneListMap": {},
+    "deviceMd5": "89c685ea3c19ea7bab14928524d9b94c"
+}

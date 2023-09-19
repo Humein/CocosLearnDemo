@@ -1,0 +1,76 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, _dec, _class, _crd, ccclass, property, item_pic_nodeEvent;
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+      Node = _cc.Node;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "cd095I9EjVFiLit0+SIvtQx", "item_pic_nodeEvent", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'EventTouch', 'Node']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("item_pic_nodeEvent", item_pic_nodeEvent = (_dec = ccclass('item_pic_nodeEvent'), _dec(_class = class item_pic_nodeEvent extends Component {
+        start() {
+          this.node.on(Node.EventType.TOUCH_START, event => {
+            const uiPos = event.getUILocation();
+            console.log("onTouchStart");
+            this.node.setScale(1.2, 1.2);
+          }, this);
+          this.node.on(Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
+          this.node.on(Node.EventType.TOUCH_END, this.onTouchEnd, this);
+          this.node.on(Node.EventType.TOUCH_CANCEL, this.onTouchCancel, this);
+        }
+
+        update(deltaTime) {} // event: EventTouch
+
+
+        onTouchStart(event) {
+          const uiPos = event.getUILocation();
+          console.log("onTouchStart");
+          this.node.setScale(1.2, 1.2);
+        }
+
+        onTouchMove(event) {
+          console.log("onTouchMove");
+          const delta = event.getUIDelta();
+          const dx = delta.x;
+          const dy = delta.y;
+          const x = this.node.position.x + dx;
+          const y = this.node.position.y + dy;
+          this.node.setPosition(x, y);
+        }
+
+        onTouchEnd(event) {
+          console.log("onTouchEnd");
+          this.node.setScale(1, 1);
+        }
+
+        onTouchCancel(event) {
+          console.log("onTouchCancel");
+          this.node.setScale(1, 1);
+        }
+
+      }) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=3c5712d95324faa179f4451a6c34199a8bd56c38.js.map

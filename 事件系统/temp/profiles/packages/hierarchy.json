@@ -1,0 +1,32 @@
+{
+  "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
+    "assetUuid": "c77ecaa8-c936-46c4-a5b0-98692673ed87",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0",
+      "0_0_0",
+      "0_0_1"
+    ]
+  },
+  "1bae782d-6ab1-4981-b951-c9ca2bcf6627": {
+    "assetUuid": "1bae782d-6ab1-4981-b951-c9ca2bcf6627",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0",
+      "0_0_0",
+      "0_0_1"
+    ]
+  },
+  "add773bf-89cf-40cd-ab03-5ea71a2a231a": {
+    "assetUuid": "add773bf-89cf-40cd-ab03-5ea71a2a231a",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0",
+      "0_0_2",
+      "0_0_3"
+    ]
+  }
+}
