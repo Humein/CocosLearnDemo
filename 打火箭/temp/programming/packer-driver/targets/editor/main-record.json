@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 35617.23686897755,
+      "mTimestamp": 15989.126067996025,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 85159047.55976301,
+      "mTimestamp": 66975562.47372204,
       "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
       "imports": [
         {
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///Users/zhangxinxin/NewProject_1/assets/scripts/GameRoot.ts",
+          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -646,7 +646,7 @@
             },
             "end": {
               "line": 5,
-              "column": 266
+              "column": 360
             }
           }
         }
@@ -663,7 +663,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/zhangxinxin/NewProject_1/assets/scripts/GameRoot.ts"
+            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts"
           },
           "messages": []
         }
@@ -727,6 +727,58 @@
         "uuid": "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
       },
       "chunkId": "4fab9b0e59ba5e3a2aa35ed6daee8f09b574d5bb",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 168
+            },
+            "end": {
+              "line": 1,
+              "column": 172
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts": {
+      "mTimestamp": {
+        "mtime": 1695192968184.6702,
+        "uuid": "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
+      },
+      "chunkId": "1ba4849b4b2b0c0a9808ce1c609b58de8b6a6509",
       "imports": [
         {
           "value": "cc"

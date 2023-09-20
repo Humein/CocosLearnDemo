@@ -128,12 +128,74 @@
         "1b30c865-367c-47f0-af6e-457e382bc539@f9941",
         "0389ae2c-67e8-4384-9cac-0b9009720734@f9941",
         "d1a8e965-4021-4a50-977e-82498d4416e7",
+        "efca8bee-9e4e-488c-864f-a9c3d7ad64a4",
         "c77ecaa8-c936-46c4-a5b0-98692673ed87"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
       ]
+    }
+  },
+  "c753e489-30f2-4053-8ac8-6411d4e867f1": {
+    "url": "db://assets/images/arrow.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c753e489-30f2-4053-8ac8-6411d4e867f1@6c48a": {
+    "url": "db://assets/images/arrow.png@6c48a",
+    "value": {
+      "depends": [
+        "c753e489-30f2-4053-8ac8-6411d4e867f1"
+      ]
+    }
+  },
+  "c753e489-30f2-4053-8ac8-6411d4e867f1@f9941": {
+    "url": "db://assets/images/arrow.png@f9941",
+    "value": {
+      "depends": [
+        "c753e489-30f2-4053-8ac8-6411d4e867f1@6c48a"
+      ]
+    }
+  },
+  "d8829892-117d-4a1b-82b7-162989d98547": {
+    "url": "db://assets/prefab/UFO.prefab",
+    "value": {}
+  },
+  "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1": {
+    "url": "db://assets/images/Car.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@6c48a": {
+    "url": "db://assets/images/Car.png@6c48a",
+    "value": {
+      "depends": [
+        "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1"
+      ]
+    }
+  },
+  "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@f9941": {
+    "url": "db://assets/images/Car.png@f9941",
+    "value": {
+      "depends": [
+        "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@6c48a"
+      ]
+    }
+  },
+  "f2b1abc2-20ef-4faa-8354-10f883151ba6": {
+    "url": "db://assets/prefab/UFO.prefab",
+    "value": {}
+  },
+  "efca8bee-9e4e-488c-864f-a9c3d7ad64a4": {
+    "url": "db://assets/prefab/Car.prefab",
+    "value": {
+      "depends": [
+        "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@f9941"
+      ],
+      "dependScripts": []
     }
   }
 }

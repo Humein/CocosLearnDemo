@@ -70,6 +70,90 @@
     "/Users/zhangxinxin/NewProject_1/assets/scene.scene": {
       "time": 1695125427329.718,
       "uuid": "6d06ad4a-5f54-4d83-bcaf-726894183362"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images": {
+      "time": 1695175886437.1592,
+      "uuid": "c4d99f9a-8278-4b8b-b7ce-d8995dd71108"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab": {
+      "time": 1695181101312.6904,
+      "uuid": "097bdad9-16d7-4d6a-9dc8-3094f90b3317"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts": {
+      "time": 1695041249463.0544,
+      "uuid": "81c90d3b-7d4c-4dd8-8ad2-f8e583fe3407"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.ts": {
+      "time": 1695192968184.6702,
+      "uuid": "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images.meta": {
+      "time": 1695040378917.1304
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab.meta": {
+      "time": 1695103771035.272
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts.meta": {
+      "time": 1695040391823.3574
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.ts.meta": {
+      "time": 1695041249464.1985
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scene.scene": {
+      "time": 1695190337411.1047,
+      "uuid": "6d06ad4a-5f54-4d83-bcaf-726894183362"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/AIM.png": {
+      "time": 1695040384563.8357,
+      "uuid": "1b30c865-367c-47f0-af6e-457e382bc539"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Peoson.png": {
+      "time": 1695040384564.0898,
+      "uuid": "ee568ddc-6d6c-49b0-aac1-3d42fcd21a2c"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Peoson.prefab": {
+      "time": 1695117212002.3108,
+      "uuid": "d1a8e965-4021-4a50-977e-82498d4416e7"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scene.scene.meta": {
+      "time": 1695125427379.859
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Peoson.prefab.meta": {
+      "time": 1695103785053.7676
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Peoson.png.meta": {
+      "time": 1695040384859.768
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/AIM.png.meta": {
+      "time": 1695040384672.2925
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/arrow.png.meta": {
+      "time": 1695126792346.3528
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/arrow.png": {
+      "time": 1695126654769.0828,
+      "uuid": "05b8ba32-d7bc-4a77-86c8-6c3481f4a203"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Alien.png.meta": {
+      "time": 1695040384758.3481
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Alien.png": {
+      "time": 1695040384563.941,
+      "uuid": "0389ae2c-67e8-4384-9cac-0b9009720734"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Car.png.meta": {
+      "time": 1695175886601.063
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Car.png": {
+      "time": 1695175886430.9534,
+      "uuid": "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Car.prefab.meta": {
+      "time": 1695181101314.8152
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Car.prefab": {
+      "time": 1695181101313.7263,
+      "uuid": "efca8bee-9e4e-488c-864f-a9c3d7ad64a4"
     }
   },
   "missing": {
@@ -92,6 +176,26 @@
       "path": "/Users/zhangxinxin/NewProject_1/assets/predab",
       "time": 1695103771032.7222,
       "removeTime": 1695103781442
+    },
+    "05b8ba32-d7bc-4a77-86c8-6c3481f4a203": {
+      "path": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/arrow.png",
+      "time": 1695109363087.9595,
+      "removeTime": 1695126636040
+    },
+    "0389ae2c-67e8-4384-9cac-0b9009720734": {
+      "path": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Alien.png",
+      "time": 1695040384563.941,
+      "removeTime": 1695126855640
+    },
+    "d8829892-117d-4a1b-82b7-162989d98547": {
+      "path": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/UFO.prefab",
+      "time": 1695126924051.4072,
+      "removeTime": 1695175904147
+    },
+    "f2b1abc2-20ef-4faa-8354-10f883151ba6": {
+      "path": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/UFO.prefab",
+      "time": 1695180665285.3015,
+      "removeTime": 1695181037669
     }
   }
 }
