@@ -76,7 +76,7 @@
       "uuid": "c4d99f9a-8278-4b8b-b7ce-d8995dd71108"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab": {
-      "time": 1695181101312.6904,
+      "time": 1695193996739.3872,
       "uuid": "097bdad9-16d7-4d6a-9dc8-3094f90b3317"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts": {
@@ -84,7 +84,7 @@
       "uuid": "81c90d3b-7d4c-4dd8-8ad2-f8e583fe3407"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.ts": {
-      "time": 1695192968184.6702,
+      "time": 1695202883789.9446,
       "uuid": "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images.meta": {
@@ -100,7 +100,7 @@
       "time": 1695041249464.1985
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scene.scene": {
-      "time": 1695190337411.1047,
+      "time": 1695203365427.8066,
       "uuid": "6d06ad4a-5f54-4d83-bcaf-726894183362"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/AIM.png": {
@@ -154,6 +154,13 @@
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Car.prefab": {
       "time": 1695181101313.7263,
       "uuid": "efca8bee-9e4e-488c-864f-a9c3d7ad64a4"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/DoubleCar.prefab.meta": {
+      "time": 1695193996741.8503
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/DoubleCar.prefab": {
+      "time": 1695193996740.5312,
+      "uuid": "f257b510-72c7-4cb0-9e5a-c95bf5135d7e"
     }
   },
   "missing": {
@@ -196,6 +203,11 @@
       "path": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/UFO.prefab",
       "time": 1695180665285.3015,
       "removeTime": 1695181037669
+    },
+    "b164b997-4480-4981-9ed0-e8db84f66106": {
+      "path": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/doubleCar.prefab",
+      "time": 1695193320042.9368,
+      "removeTime": 1695193738769
     }
   }
 }

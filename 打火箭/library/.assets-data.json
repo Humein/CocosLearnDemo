@@ -129,6 +129,7 @@
         "0389ae2c-67e8-4384-9cac-0b9009720734@f9941",
         "d1a8e965-4021-4a50-977e-82498d4416e7",
         "efca8bee-9e4e-488c-864f-a9c3d7ad64a4",
+        "f257b510-72c7-4cb0-9e5a-c95bf5135d7e",
         "c77ecaa8-c936-46c4-a5b0-98692673ed87"
       ],
       "dependScripts": [
@@ -191,6 +192,19 @@
   },
   "efca8bee-9e4e-488c-864f-a9c3d7ad64a4": {
     "url": "db://assets/prefab/Car.prefab",
+    "value": {
+      "depends": [
+        "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@f9941"
+      ],
+      "dependScripts": []
+    }
+  },
+  "b164b997-4480-4981-9ed0-e8db84f66106": {
+    "url": "db://assets/prefab/doubleCar.prefab",
+    "value": {}
+  },
+  "f257b510-72c7-4cb0-9e5a-c95bf5135d7e": {
+    "url": "db://assets/prefab/DoubleCar.prefab",
     "value": {
       "depends": [
         "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@f9941"
