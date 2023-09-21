@@ -25,10 +25,16 @@
       },
       {
         "__id__": 4
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 8
       }
     ],
     "_prefab": {
-      "__id__": 6
+      "__id__": 10
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -110,7 +116,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "8f35c19f-fb81-4e32-b1df-9f8cf32eacd1@f9941",
+      "__uuid__": "a30b3cad-7002-45de-8a51-2b6c0f35dfbd@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -133,6 +139,74 @@
     "fileId": "34Bm2vTU9MEby7TP1CdfaX"
   },
   {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 7
+    },
+    "enabledContactListener": true,
+    "bullet": false,
+    "awakeOnLoad": true,
+    "_group": 1,
+    "_type": 3,
+    "_allowSleep": true,
+    "_gravityScale": 1,
+    "_linearDamping": 0,
+    "_angularDamping": 0,
+    "_linearVelocity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_angularVelocity": 0,
+    "_fixedRotation": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "17uUaeLtdEDaWrnn2WijZu"
+  },
+  {
+    "__type__": "cc.BoxCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 9
+    },
+    "tag": 0,
+    "_group": 1,
+    "_density": 1,
+    "_sensor": true,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 50,
+      "height": 50
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "d3Msdj0z5LTrWmBSO6Ej9b"
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -141,6 +215,7 @@
       "__id__": 0
     },
     "fileId": "fdR2yRVt1BnKp+QtE3kKi8",
+    "instance": null,
     "targetOverrides": null
   }
 ]

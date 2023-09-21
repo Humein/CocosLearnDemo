@@ -110,8 +110,8 @@
     },
     "6d06ad4a-5f54-4d83-bcaf-726894183362": {
       "position": {
-        "x": 375.8893613398907,
-        "y": 693.4772917957724,
+        "x": 1230.976,
+        "y": 51.351000000000056,
         "z": 5000
       },
       "rotation": {
@@ -143,10 +143,226 @@
         "y": 0,
         "z": 0
       }
+    },
+    "651OsLmY5KFYrDxno22+0k": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "56DBROwHhHebFPEPUzlb+E": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "2d/kJZwmlCiKRjQiA48oZj": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "3a+Pi3jwJFeZC9wnPyOmlc": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "36yJCQ+k1BnrCJvwJ2GeV2": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "f2IZa+FzNPg5EXwyjD4/wo": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "6axIOwGjFOFZBZVfGJJRT2": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "6b6Z6eyk9Bb4tuyER+Vc2n": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "d1fpevDtxFtqypJYugz2FU": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "81OSYgnzJBZrtXxsZ0SyNY": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "efyoW37slOEqecZlsS4ghX": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "89300fEGlF8Jo2YL9c+4O8": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
     }
   },
   "camera-uuids": [
-    "6d06ad4a-5f54-4d83-bcaf-726894183362"
+    "89300fEGlF8Jo2YL9c+4O8"
   ],
   "camera": {
     "fov": 45,

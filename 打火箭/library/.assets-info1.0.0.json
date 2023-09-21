@@ -72,7 +72,7 @@
       "uuid": "6d06ad4a-5f54-4d83-bcaf-726894183362"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images": {
-      "time": 1695175886437.1592,
+      "time": 1695291001941.8108,
       "uuid": "c4d99f9a-8278-4b8b-b7ce-d8995dd71108"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab": {
@@ -84,7 +84,7 @@
       "uuid": "81c90d3b-7d4c-4dd8-8ad2-f8e583fe3407"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.ts": {
-      "time": 1695202883789.9446,
+      "time": 1695290778880.024,
       "uuid": "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images.meta": {
@@ -100,7 +100,7 @@
       "time": 1695041249464.1985
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scene.scene": {
-      "time": 1695203365427.8066,
+      "time": 1695291115504.0256,
       "uuid": "6d06ad4a-5f54-4d83-bcaf-726894183362"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/AIM.png": {
@@ -152,15 +152,22 @@
       "time": 1695181101314.8152
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/Car.prefab": {
-      "time": 1695181101313.7263,
+      "time": 1695291174568.9038,
       "uuid": "efca8bee-9e4e-488c-864f-a9c3d7ad64a4"
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/DoubleCar.prefab.meta": {
       "time": 1695193996741.8503
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/prefab/DoubleCar.prefab": {
-      "time": 1695193996740.5312,
+      "time": 1695259336641.2197,
       "uuid": "f257b510-72c7-4cb0-9e5a-c95bf5135d7e"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Pig.png.meta": {
+      "time": 1695291002261.7532
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/images/Pig.png": {
+      "time": 1695291001934.977,
+      "uuid": "a30b3cad-7002-45de-8a51-2b6c0f35dfbd"
     }
   },
   "missing": {
