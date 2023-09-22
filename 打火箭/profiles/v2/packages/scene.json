@@ -110,8 +110,8 @@
     },
     "6d06ad4a-5f54-4d83-bcaf-726894183362": {
       "position": {
-        "x": 1230.976,
-        "y": 51.351000000000056,
+        "x": 570.505,
+        "y": 52.39500000000004,
         "z": 5000
       },
       "rotation": {
@@ -359,10 +359,28 @@
         "y": 0,
         "z": 0
       }
+    },
+    "3cDRtB1lpC1oLrZRmcquqh": {
+      "position": {
+        "x": 494,
+        "y": 359.5,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
     }
   },
   "camera-uuids": [
-    "89300fEGlF8Jo2YL9c+4O8"
+    "3cDRtB1lpC1oLrZRmcquqh"
   ],
   "camera": {
     "fov": 45,

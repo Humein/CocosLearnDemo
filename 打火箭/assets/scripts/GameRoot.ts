@@ -1,6 +1,6 @@
 import { _decorator, Component, EventKeyboard, Node, input, Input, KeyCode,
-     Prefab, instantiate, Collider2D, Contact2DType, IPhysics2DContact, 
-     director, Director, tween, Label, Vec3, Color, PhysicsSystem2D} from 'cc';
+     Prefab, instantiate, Collider2D, Contact2DType, IPhysics2DContact,
+     director, Director, tween, Label, Vec3, Color, PhysicsSystem2D, Quat} from 'cc';
 const { ccclass, property } = _decorator;
 
 /// 分组 枚举
@@ -23,9 +23,7 @@ enum PHY_TAG {
 
 @ccclass('GameRoot')
 export class GameRoot extends Component {
-
-
-
+    //property 在组件的属性中声明节点 在编译器中能够显示
     @property(Node) player: Node = null!;
     @property(Node) hensRoot: Node = null!;
     @property(Node) eggsRoot: Node = null!;
@@ -34,7 +32,6 @@ export class GameRoot extends Component {
     @property(Prefab) ufoSingleHit: Prefab = null!;
     @property(Prefab) ufoDoubleHit: Prefab = null!;
     @property(Label) scoreLabel: Label = null!;
-
     // 在组件的属性中声明按键状态
     @property
     private isDPressed: boolean = false;
@@ -44,10 +41,11 @@ export class GameRoot extends Component {
     private isAPressed: boolean = false;
     private isJumping = false; // 标记是否正在跳跃
 
+    // 在编译器中不能显示的属性
     playerPosIndex = 0;
     hensPosXArr = []
     ufoPosXArr = []
-     
+
     playScore = 0
     playHp = 3
 
@@ -74,7 +72,7 @@ export class GameRoot extends Component {
         for (let i = 0; i < this.ufoHitRoot.children.length; i++) {
             const element = this.ufoHitRoot.children[i];
             const x = element.position.x - 150 * deltaTime;;
-            const y = element.position.y; 
+            const y = element.position.y;
             element.setPosition(x, y, 0);
             if (x < -window.innerWidth) {
                 element.destroy();
@@ -82,7 +80,7 @@ export class GameRoot extends Component {
         }
 
     }
-    
+
     onLoad() {
         director.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
         director.on(Input.EventType.KEY_UP, this.onKeyUp, this);
@@ -132,11 +130,11 @@ export class GameRoot extends Component {
             // 为预制体设置碰撞组
             const eggsRootCollider = egg.getComponent(Collider2D);
             eggsRootCollider.group = PHY_GROUP.DEFAULT
-            eggsRootCollider.tag = PHY_TAG.TAG_EGG 
+            eggsRootCollider.tag = PHY_TAG.TAG_EGG
             this.eggsRoot.addChild(egg);
             // 配置egg的位置
             const targetX = this.hensPosXArr[Math.floor(Math.random() * this.hensPosXArr.length)];
-            const targetY = this.hensRoot.position.y - 80 
+            const targetY = this.hensRoot.position.y - 80
             egg.setPosition(targetX, targetY, 0);
         }, 1);
 
@@ -154,40 +152,44 @@ export class GameRoot extends Component {
                 ufoCollider.tag = PHY_TAG.TAG_CAR
             }else{
                 ufoCollider.group = PHY_GROUP.DEFAULT
-                ufoCollider.tag = PHY_TAG.TAG_DOUBLECAR  
+                ufoCollider.tag = PHY_TAG.TAG_DOUBLECAR
             }
+
             this.ufoHitRoot.addChild(ufo);
             // XXTODO 预制体之间间距默认是80，但是 ufoDoubleHit与其他预制体包括它自己的间距是:120
             ufo.setPosition(targetX, targetY, 0);
         }, 3);
-        
+
     }
-        
+
 
     // Init big bang
     openColloder2DEvent() {
         // 设置分组
+        // 代码 启用你想要的碰撞组 在碰撞回调中，可以根据碰撞的对象类型来执行不同的逻辑，现在无需配置collisionMatrix。
+        const collisionMatrix = PhysicsSystem2D.instance.collisionMatrix;
+        console.log(collisionMatrix);
+
         // 获取 this.player 上的碰撞组件
         const playerCollider = this.player.getComponent(Collider2D);
         playerCollider.group = PHY_GROUP.DEFAULT
         // 处理碰撞逻辑
         const comp = this.player.getComponent(Collider2D);
         comp?.on(Contact2DType.BEGIN_CONTACT, (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) => {
-            console.log('碰撞开始');
             // 获取碰撞对象的Tag
             const otherCTag = otherCollider.tag;
             // 根据标签区分碰撞对象
             switch (otherCTag) {
-                case PHY_TAG.TAG_EGG:
+                   case PHY_TAG.TAG_EGG:
                     console.log('player 碰到了 TAG_EGG');
                     // 执行 Eggs 相关的处理逻辑
-                    this.updateScoreLabel(); 
+                    this.updateScoreLabel();
                     // 在下一帧的物理模拟之后销毁物体
                     director.once(Director.EVENT_AFTER_PHYSICS, () => {
                        otherCollider.node.destroy();
                     }, this);
                     break;
-                case PHY_TAG.TAG_DOUBLECAR:
+                    case PHY_TAG.TAG_DOUBLECAR:
                     console.log('player 碰到了 TAG_DOUBLECAR');
                     // 执行 UfoHit 相关的处理逻辑
                     // 执行向左跳起并翻滚的效果
@@ -196,6 +198,9 @@ export class GameRoot extends Component {
                         this.playJumpAndRollEffect(selfCollider);
                     }
                     break;
+                    case PHY_TAG.TAG_CAR:
+                        console.log('player 碰到了 PHY_TAG.TAG_CAR');
+                        break;
                 default:
                     // 处理其他标签或未知标签
                     break;
@@ -212,6 +217,9 @@ export class GameRoot extends Component {
     onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         // 只在两个碰撞体开始接触时被调用一次
         console.log('onBeginContact');
+        const otherCTag = otherCollider.tag;
+        console.log('player 碰到了', otherCTag);
+
     }
     onEndContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         // 只在两个碰撞体结束接触时被调用一次
@@ -226,7 +234,7 @@ export class GameRoot extends Component {
         console.log('onPostSolve');
     }
 
-    // Event bigBang 
+    // Event bigBang
     updateScoreLabel() {
         this.playScore += 1;
         this.updateScore();
@@ -285,7 +293,7 @@ export class GameRoot extends Component {
                 break;
         }
     }
-   
+
     // Event Handlers
     movePlayer(dir: 1 | -1) {
         if (this.isDPressed && this.isWPressed) {
@@ -303,7 +311,7 @@ export class GameRoot extends Component {
     makeMoveStepIndex(dir: 1 | -1){
         this.playerPosIndex += dir;
         if (this.playerPosIndex < 0) {
-            this.playerPosIndex = 0 
+            this.playerPosIndex = 0
         }
         if (this.playerPosIndex > this.hensPosXArr.length - 1) {
             this.playerPosIndex = this.hensPosXArr.length - 1
@@ -317,7 +325,7 @@ export class GameRoot extends Component {
         const y = -window.innerHeight/2 + 100;
         const obj = {
             n: y
-        }   
+        }
         tween(obj)
             .to(0.5, {n: 20}, {
                 onUpdate: (target, ratio) => {
@@ -327,7 +335,7 @@ export class GameRoot extends Component {
             })
             .to(0.5, {n: y}, {
                 onUpdate: (target, ratio) => {
-                    this.player.setPosition(this.player.position.x, obj.n); 
+                    this.player.setPosition(this.player.position.x, obj.n);
                 },
                 easing: 'quadIn'
             })
@@ -338,7 +346,8 @@ export class GameRoot extends Component {
 
     jumpDownAnimation(dir: 1 | -1) {
         this.makeMoveStepIndex(dir);
-        const jumpX = dir === 1 ? 80 : -80;
+        const targetX = window.innerHeight / this.hensPosXArr.length;
+        const jumpX = dir === 1 ? targetX : -targetX;
         this.player.setScale(1, 1, 1);
         const obj = {
             n: this.player.position.x
@@ -356,13 +365,14 @@ export class GameRoot extends Component {
         const jumpHeight = 100; // 跳跃高度
         const jumpDuration = 0.5; // 跳跃持续时间
         const screenWidth = window.innerWidth; // 屏幕宽度，根据你的游戏设置
-    
+        const rotationDuration = 1.0; // 旋转持续时间
         // 标记为跳跃状态
         this.isJumping = true;
-    
+
         const originalPosition = selfCollider.node.position;
-        const jumpPosition = new Vec3(originalPosition.x - 100, originalPosition.y + jumpHeight, originalPosition.z);
-    
+        const henW = window.innerHeight / this.hensPosXArr.length;
+        const jumpPosition = new Vec3(originalPosition.x - henW, originalPosition.y + jumpHeight, originalPosition.z);
+
         // 检查目标位置是否超出屏幕范围
         if (jumpPosition.x <  -window.innerWidth/2) {
             // 如果跳跃会超出左边屏幕边界，将目标位置调整到屏幕边界
@@ -373,7 +383,7 @@ export class GameRoot extends Component {
             jumpPosition.x = screenWidth;
             console.log("超出右边屏幕边界 jumpPosition.x", jumpPosition.x)
         }
-    
+
         // 使用 Tween 实现向左跳起的效果
         tween(selfCollider.node)
             .to(jumpDuration / 2, { position: jumpPosition }, { easing: 'quadOut' })
@@ -385,15 +395,23 @@ export class GameRoot extends Component {
                 this.playFallEffect(selfCollider)
             })
             .start();
+    // 使用 Tween 给节点增加不断旋转的动画
+    const rotationQuat = new Quat();
+    Quat.fromEuler(rotationQuat, 0, 0, 360); // 创建一个旋转的四元数，旋转角度为 360 度
+
+    tween(selfCollider.node)
+        .by(rotationDuration, { angle: 360 }) // 旋转动画
+        .repeat(1) // 无限循环
+        .start();
     }
-    
+
 
     playFallEffect(selfCollider: Collider2D) {
         const fallDuration = 0.1; // 下落持续时间
-    
+
         const originalPosition = selfCollider.node.position;
         const fallPosition = new Vec3(originalPosition.x, originalPosition.y - 100, originalPosition.z);
-    
+
         // 使用 Tween 实现下落的效果
         tween(selfCollider.node)
             .to(fallDuration, { position: fallPosition }, { easing: 'quadIn' })
@@ -407,6 +425,6 @@ export class GameRoot extends Component {
     private updateScore() {
         this.scoreLabel.string = `${this.playScore} 分`
     }
-      
+
 }
 

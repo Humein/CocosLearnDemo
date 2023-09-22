@@ -1,0 +1,277 @@
+2023-9-21 20:08:07-log: Cannot access game frame or container.
+2023-9-21 20:08:08-debug: asset-db:require-engine-code (2374ms)
+2023-9-21 20:08:08-log: Cocos Creator v3.8.0
+2023-9-21 20:08:08-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:17.90MB, end 87.82MB, increase: 69.92MB
+2023-9-21 20:08:09-debug: [Assets Memory track]: asset-db-plugin-register: programming start:88.61MB, end 93.95MB, increase: 5.33MB
+2023-9-21 20:08:09-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:87.83MB, end 91.26MB, increase: 3.43MB
+2023-9-21 20:08:09-debug: asset-db:worker-init: initPlugin (606ms)
+2023-9-21 20:08:09-debug: [Assets Memory track]: asset-db:worker-init start:17.90MB, end 91.31MB, increase: 73.41MB
+2023-9-21 20:08:09-debug: Run asset db hook programming:beforePreStart success!
+2023-9-21 20:08:09-debug: Run asset db hook engine-extends:beforePreStart ...
+2023-9-21 20:08:09-debug: Run asset db hook engine-extends:beforePreStart success!
+2023-9-21 20:08:09-debug: Run asset db hook programming:beforePreStart ...
+2023-9-21 20:08:10-debug: asset-db:worker-init (4595ms)
+2023-9-21 20:08:10-debug: asset-db-hook-programming-beforePreStart (1010ms)
+2023-9-21 20:08:10-debug: asset-db-hook-engine-extends-beforePreStart (1010ms)
+2023-9-21 20:08:10-debug: Preimport db internal success
+2023-9-21 20:08:10-debug: %cImport%c: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.tsbackground: #aaff85; color: #000;color: #000;
+2023-9-21 20:08:10-debug: Preimport db assets success
+2023-9-21 20:08:10-debug: Run asset db hook programming:afterPreStart ...
+2023-9-21 20:08:15-debug: run package(builder) handler(enable) start
+2023-9-21 20:08:32-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:109.54MB, end 293.23MB, increase: 183.69MB
+2023-9-21 20:08:32-debug: run package(builder) handler(enable) success!
+2023-9-21 20:08:32-debug: run package(shortcuts) handler(enable) start
+2023-9-21 20:08:32-debug: run package(animation-graph) handler(enable) success!
+2023-9-21 20:08:32-debug: run package(about) handler(enable) success!
+2023-9-21 20:08:32-debug: run package(assets) handler(enable) start
+2023-9-21 20:08:33-debug: run package(assets) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(console) handler(enable) start
+2023-9-21 20:08:33-debug: run package(console) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(crash-reporter) handler(enable) start
+2023-9-21 20:08:33-debug: run package(crash-reporter) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(extension) handler(enable) start
+2023-9-21 20:08:33-debug: run package(extension) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(hierarchy) handler(enable) start
+2023-9-21 20:08:33-debug: run package(hierarchy) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(inspector) handler(enable) start
+2023-9-21 20:08:33-debug: run package(inspector) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(light-probe) handler(enable) start
+2023-9-21 20:08:33-debug: run package(light-probe) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(lightmap) handler(enable) start
+2023-9-21 20:08:33-debug: run package(lightmap) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(node-library) handler(enable) start
+2023-9-21 20:08:33-debug: run package(node-library) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(package-asset) handler(enable) start
+2023-9-21 20:08:33-debug: run package(package-asset) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(process) handler(enable) start
+2023-9-21 20:08:33-debug: run package(process) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(reference-image) handler(enable) start
+2023-9-21 20:08:33-debug: run package(reference-image) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(reflection-probe) handler(enable) start
+2023-9-21 20:08:33-debug: run package(reflection-probe) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(engine-extends) handler(enable) start
+2023-9-21 20:08:33-debug: run package(engine-extends) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(adsense-h5g-plugin) handler(enable) start
+2023-9-21 20:08:33-debug: run package(adsense-h5g-plugin) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(alipay-mini-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(alipay-mini-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(android) handler(enable) start
+2023-9-21 20:08:33-debug: run package(android) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(bytedance-mini-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(bytedance-mini-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(certificate) handler(enable) start
+2023-9-21 20:08:33-debug: run package(certificate) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(channel-upload-tools) handler(enable) start
+2023-9-21 20:08:33-debug: run package(channel-upload-tools) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(fb-instant-games) handler(enable) start
+2023-9-21 20:08:33-debug: run package(fb-instant-games) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(huawei-agc) handler(enable) start
+2023-9-21 20:08:33-debug: run package(huawei-agc) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(huawei-quick-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(huawei-quick-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(ios) handler(enable) start
+2023-9-21 20:08:33-debug: run package(ios) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(linux) handler(enable) start
+2023-9-21 20:08:33-debug: run package(linux) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(mac) handler(enable) start
+2023-9-21 20:08:33-debug: run package(mac) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(native) handler(enable) start
+2023-9-21 20:08:33-debug: run package(native) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(ohos) handler(enable) start
+2023-9-21 20:08:33-debug: run package(ohos) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(openharmony) handler(enable) start
+2023-9-21 20:08:33-debug: run package(openharmony) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(oppo-mini-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(oppo-mini-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(runtime-dev-tools) handler(enable) start
+2023-9-21 20:08:33-debug: run package(runtime-dev-tools) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(taobao-creative-app) handler(enable) start
+2023-9-21 20:08:33-debug: run package(taobao-creative-app) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(taobao-mini-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(taobao-mini-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(vivo-mini-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(vivo-mini-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(web-desktop) handler(enable) start
+2023-9-21 20:08:33-debug: run package(web-desktop) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(web-mobile) handler(enable) start
+2023-9-21 20:08:33-debug: run package(web-mobile) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(wechatgame) handler(enable) start
+2023-9-21 20:08:33-debug: run package(wechatgame) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(wechatprogram) handler(enable) start
+2023-9-21 20:08:33-debug: run package(wechatprogram) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(windows) handler(enable) start
+2023-9-21 20:08:33-debug: run package(windows) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(xiaomi-quick-game) handler(enable) start
+2023-9-21 20:08:33-debug: run package(xiaomi-quick-game) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(cocos-service) handler(enable) start
+2023-9-21 20:08:33-debug: run package(cocos-service) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(im-plugin) handler(enable) start
+2023-9-21 20:08:33-debug: run package(im-plugin) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(prefab380fix) handler(enable) start
+2023-9-21 20:08:33-debug: run package(prefab380fix) handler(enable) success!
+2023-9-21 20:08:32-debug: run package(shortcuts) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(placeholder) handler(enable) success!
+2023-9-21 20:08:33-debug: run package(placeholder) handler(enable) start
+2023-9-21 20:08:32-debug: run package(animation-graph) handler(enable) start
+2023-9-21 20:08:32-debug: run package(about) handler(enable) start
+2023-9-21 20:08:34-debug: Set detail map pack:///resolution-detail-map.json: {}
+2023-9-21 20:08:34-debug: [Assets Memory track]: asset-db:worker-init: preStart start:91.32MB, end 290.18MB, increase: 198.87MB
+2023-9-21 20:08:34-debug: Start up the 'internal' database...
+2023-9-21 20:08:34-debug: Run asset db hook engine-extends:afterPreStart success!
+2023-9-21 20:08:34-debug: Run asset db hook programming:afterPreStart success!
+2023-9-21 20:08:34-debug: Run asset db hook engine-extends:afterPreStart ...
+2023-9-21 20:08:34-debug: asset-db-hook-programming-afterPreStart (23711ms)
+2023-9-21 20:08:34-debug: asset-db:worker-effect-data-processing (63ms)
+2023-9-21 20:08:34-debug: asset-db-hook-engine-extends-afterPreStart (63ms)
+2023-9-21 20:08:34-debug: start asset-db with asset: 459
+2023-9-21 20:08:34-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:109.26MB, end 293.41MB, increase: 184.14MB
+2023-9-21 20:08:34-debug: Start up the 'assets' database...
+2023-9-21 20:08:34-debug: asset-db:worker-startup-database[internal] (23938ms)
+2023-9-21 20:08:34-debug: start asset-db with asset: 14
+2023-9-21 20:08:34-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:109.17MB, end 293.64MB, increase: 184.46MB
+2023-9-21 20:08:34-debug: [Assets Memory track]: asset-db:worker-init: startup start:290.19MB, end 293.64MB, increase: 3.46MB
+2023-9-21 20:08:34-debug: asset-db:worker-startup-database[assets] (23779ms)
+2023-9-21 20:08:34-debug: asset-db:start-database (24817ms)
+2023-9-21 20:08:34-debug: asset-db:ready (34031ms)
+2023-9-21 20:08:34-debug: init worker message success
+2023-9-21 20:08:35-debug: [Build Memory track]: builder:worker-init start:289.65MB, end 304.48MB, increase: 14.82MB
+2023-9-21 20:08:35-debug: programming:execute-script (12ms)
+2023-9-21 20:08:35-debug: builder:worker-init (976ms)
+2023-9-21 20:08:37-debug: refresh db internal success
+2023-9-21 20:08:37-debug: %cImport%c: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.tsbackground: #aaff85; color: #000;color: #000;
+2023-9-21 20:08:37-debug: refresh db assets success
+2023-9-21 20:08:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:08:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:08:37-debug: asset-db:refresh-all-database (79ms)
+2023-9-21 20:08:37-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:08:37-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:08:37-debug: programming:execute-script (7ms)
+2023-9-21 20:09:22-debug: refresh db internal success
+2023-9-21 20:09:22-debug: refresh db assets success
+2023-9-21 20:09:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:09:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:09:22-debug: asset-db:refresh-all-database (73ms)
+2023-9-21 20:09:22-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:09:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:09:24-debug: refresh db internal success
+2023-9-21 20:09:24-debug: refresh db assets success
+2023-9-21 20:09:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:09:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:09:24-debug: asset-db:refresh-all-database (66ms)
+2023-9-21 20:09:24-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2023-9-21 20:09:52-debug: refresh db internal success
+2023-9-21 20:09:52-debug: %cImport%c: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scripts/GameRoot.tsbackground: #aaff85; color: #000;color: #000;
+2023-9-21 20:09:52-debug: refresh db assets success
+2023-9-21 20:09:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:09:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:09:52-debug: asset-db:refresh-all-database (74ms)
+2023-9-21 20:09:52-debug: asset-db:worker-effect-data-processing (2ms)
+2023-9-21 20:09:52-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2023-9-21 20:11:05-debug: refresh db internal success
+2023-9-21 20:11:05-debug: refresh db assets success
+2023-9-21 20:11:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:11:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:11:05-debug: asset-db:refresh-all-database (82ms)
+2023-9-21 20:11:05-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:11:05-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2023-9-21 20:14:42-debug: refresh db internal success
+2023-9-21 20:14:42-debug: refresh db assets success
+2023-9-21 20:14:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:14:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:14:42-debug: asset-db:refresh-all-database (62ms)
+2023-9-21 20:14:42-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:14:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:14:44-debug: refresh db internal success
+2023-9-21 20:14:44-debug: refresh db assets success
+2023-9-21 20:14:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:14:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:14:44-debug: asset-db:refresh-all-database (58ms)
+2023-9-21 20:14:44-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:14:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:16:14-debug: refresh db internal success
+2023-9-21 20:16:14-debug: refresh db assets success
+2023-9-21 20:16:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:16:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:16:14-debug: asset-db:refresh-all-database (51ms)
+2023-9-21 20:16:14-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:16:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:16:36-debug: refresh db internal success
+2023-9-21 20:16:36-debug: refresh db assets success
+2023-9-21 20:16:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:16:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:16:36-debug: asset-db:refresh-all-database (51ms)
+2023-9-21 20:16:36-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:16:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:17:17-debug: refresh db internal success
+2023-9-21 20:17:17-debug: refresh db assets success
+2023-9-21 20:17:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:17:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:17:17-debug: asset-db:refresh-all-database (51ms)
+2023-9-21 20:17:17-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:17:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:18:56-debug: refresh db internal success
+2023-9-21 20:18:56-debug: refresh db assets success
+2023-9-21 20:18:56-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:18:56-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:18:56-debug: asset-db:refresh-all-database (51ms)
+2023-9-21 20:18:56-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:18:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:18:57-debug: refresh db internal success
+2023-9-21 20:18:57-debug: refresh db assets success
+2023-9-21 20:18:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:18:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:18:57-debug: asset-db:refresh-all-database (46ms)
+2023-9-21 20:18:57-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:18:57-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:23:47-debug: refresh db internal success
+2023-9-21 20:23:47-debug: refresh db assets success
+2023-9-21 20:23:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:23:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:23:47-debug: asset-db:refresh-all-database (68ms)
+2023-9-21 20:23:47-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:23:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:23:54-debug: refresh db internal success
+2023-9-21 20:23:54-debug: refresh db assets success
+2023-9-21 20:23:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:23:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:23:54-debug: asset-db:refresh-all-database (44ms)
+2023-9-21 20:23:54-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:23:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:24:02-debug: refresh db internal success
+2023-9-21 20:24:03-debug: refresh db assets success
+2023-9-21 20:24:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:24:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:24:03-debug: asset-db:refresh-all-database (49ms)
+2023-9-21 20:24:03-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:24:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2023-9-21 20:55:14-debug: refresh db internal success
+2023-9-21 20:55:14-debug: refresh db assets success
+2023-9-21 20:55:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:55:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:55:14-debug: asset-db:refresh-all-database (193ms)
+2023-9-21 20:55:14-debug: asset-db:worker-effect-data-processing (2ms)
+2023-9-21 20:55:14-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2023-9-21 20:56:50-debug: refresh db internal success
+2023-9-21 20:56:50-debug: refresh db assets success
+2023-9-21 20:56:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-21 20:56:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-21 20:56:50-debug: asset-db:refresh-all-database (53ms)
+2023-9-21 20:56:50-debug: asset-db:worker-effect-data-processing (1ms)
+2023-9-21 20:56:50-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2023-9-22 10:17:47-debug: refresh db internal success
+2023-9-22 10:17:47-debug: refresh db assets success
+2023-9-22 10:17:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-22 10:17:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-22 10:17:47-debug: asset-db:refresh-all-database (205ms)
+2023-9-22 10:17:47-debug: asset-db:worker-effect-data-processing (2ms)
+2023-9-22 10:17:47-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2023-9-22 10:17:53-debug: refresh db internal success
+2023-9-22 10:17:53-debug: refresh db assets success
+2023-9-22 10:17:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2023-9-22 10:17:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2023-9-22 10:17:53-debug: asset-db:refresh-all-database (56ms)
+2023-9-22 10:17:53-debug: asset-db:worker-effect-data-processing (2ms)
+2023-9-22 10:17:53-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2023-9-22 10:18:00-debug: start refresh asset from /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scene.scene...
+2023-9-22 10:18:00-debug: %cImport%c: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets/scene.scenebackground: #aaff85; color: #000;color: #000;
+2023-9-22 10:18:00-debug: refresh asset /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭/assets success
