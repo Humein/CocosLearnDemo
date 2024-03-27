@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 15989.126067996025,
+      "mTimestamp": 18738.25126105547,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 239450003.49595904,
+      "mTimestamp": 89098624.94754905,
       "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
       "imports": [
         {
@@ -775,10 +775,10 @@
     },
     "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts": {
       "mTimestamp": {
-        "mtime": 1695365445193.6702,
+        "mtime": 1711536445163.0095,
         "uuid": "ac2ff9fa-5101-4a5a-b79d-510acee57d29"
       },
-      "chunkId": "ff72b71293993d0dffdc69234a408f101a510263",
+      "chunkId": "b15061c17838f214da404b939bbbd8c7c7753f22",
       "imports": [
         {
           "value": "cc"

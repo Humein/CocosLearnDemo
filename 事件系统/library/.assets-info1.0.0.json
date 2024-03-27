@@ -168,6 +168,62 @@
     },
     "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/事件系统/assets/Pics/item_pic.png.meta": {
       "time": 1694572883927.4468
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Pics": {
+      "time": 1694585271851.8022,
+      "uuid": "798a0643-83a2-4abb-8a1a-b17aa8b891cc"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script": {
+      "time": 1694585296221.0947,
+      "uuid": "878021d4-96fb-4550-a3c0-0cd4c609302a"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script/GameRoot.ts": {
+      "time": 1695110489205.1396,
+      "uuid": "dc3d0914-3888-46d5-8e12-744344699c9f"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script/NodePosition.ts": {
+      "time": 1694501662636.8762,
+      "uuid": "78dd1f8b-c796-4812-977e-a8cb476a6b8a"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script/item_pic_nodeEvent.ts": {
+      "time": 1694576283931.236,
+      "uuid": "cd09523d-1235-4588-b8ad-d3e488bed431"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Pics.meta": {
+      "time": 1694585263618.044
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script.meta": {
+      "time": 1694585292904.7112
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script/GameRoot.ts.meta": {
+      "time": 1694585250841.2087
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script/NodePosition.ts.meta": {
+      "time": 1694501054849.9875
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Script/item_pic_nodeEvent.ts.meta": {
+      "time": 1694569392451.996
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/scene.scene": {
+      "time": 1694658652326.3694,
+      "uuid": "add773bf-89cf-40cd-ab03-5ea71a2a231a"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Pics/item_pic.png": {
+      "time": 1694572883889.5974,
+      "uuid": "c615f8a3-48e0-41b0-91b7-81e565946e2e"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Pics/wxy.png": {
+      "time": 1694576449067.1682,
+      "uuid": "8edcf375-2e23-4010-bd85-92e984c69549"
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/scene.scene.meta": {
+      "time": 1694501270249.4927
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Pics/wxy.png.meta": {
+      "time": 1694576449130.8308
+    },
+    "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/Pics/item_pic.png.meta": {
+      "time": 1694572883927.4468
     }
   },
   "missing": {

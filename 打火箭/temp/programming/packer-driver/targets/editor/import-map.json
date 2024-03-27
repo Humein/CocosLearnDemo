@@ -3,7 +3,7 @@
     "cce:/internal/x/cc": "./chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js",
     "file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/d5/d5608b38b037f8fab3d80ad8b6997514f74129c4.js",
-    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts": "./chunks/ff/ff72b71293993d0dffdc69234a408f101a510263.js"
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts": "./chunks/b1/b15061c17838f214da404b939bbbd8c7c7753f22.js"
   },
   "scopes": {
     "./chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js": {
@@ -39,9 +39,9 @@
     },
     "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js": {
       "__unresolved_0": "./chunks/d5/d5608b38b037f8fab3d80ad8b6997514f74129c4.js",
-      "__unresolved_1": "./chunks/ff/ff72b71293993d0dffdc69234a408f101a510263.js"
+      "__unresolved_1": "./chunks/b1/b15061c17838f214da404b939bbbd8c7c7753f22.js"
     },
-    "./chunks/ff/ff72b71293993d0dffdc69234a408f101a510263.js": {
+    "./chunks/b1/b15061c17838f214da404b939bbbd8c7c7753f22.js": {
       "cc": "./chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js"
     },
     "./chunks/d5/d5608b38b037f8fab3d80ad8b6997514f74129c4.js": {

@@ -1,11 +1,11 @@
-debug: Thu, 21 Sep 2023 12:08:15 GMT
+debug: Tue, 26 Mar 2024 10:02:46 GMT
 debug: Project: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/打火箭
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 1.3481110334396362ms.
+debug: Loading cache costs 2.736239969730377ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.5217339992523193ms.
+debug: Loading cache costs 2.7688350081443787ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 17.105530977249146ms.
+debug: Fetch asset-db cost: 18.571542024612427ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 2
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -82,21 +82,19 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 07:36:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:34 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Thu Sep 21 2023 19:56:51 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Thu Sep 21 2023 20:08:28 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 567.6820288896561ms.
+debug: Target(editor) ends with cost 148.4331250190735ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:34 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -117,75 +115,135 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 07:36:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Thu Sep 21 2023 19:56:51 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Thu Sep 21 2023 20:08:28 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 450.67294895648956ms.
+debug: Target(preview) ends with cost 118.49520701169968ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 1074.22826898098ms.
+debug: Fetch asset-db cost: 1052.134033024311ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 2
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:36 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Target(editor) ends with cost 37.513169050216675ms.
+debug: Target(editor) ends with cost 53.12453895807266ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:36 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Target(preview) ends with cost 58.32390999794006ms.
+debug: Target(preview) ends with cost 48.633809983730316ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:38 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:42:43 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Target(editor) ends with cost 37.6245139837265ms.
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Mon Sep 25 2023 20:41:40 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:45:05 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 752.4875000119209ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:42:44 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Target(preview) ends with cost 42.163628935813904ms.
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Mon Sep 25 2023 20:41:40 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:45:05 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 423.73966097831726ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:54 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 08:42:43 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:43:35 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Thu Sep 21 2023 20:08:28 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Thu Sep 21 2023 20:09:51 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Wed Mar 27 2024 18:45:05 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:46:00 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
 debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 185.04067599773407ms.
+debug: Target(editor) ends with cost 280.61034697294235ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:54 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 08:42:44 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:43:35 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
-debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Thu Sep 21 2023 20:08:28 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Thu Sep 21 2023 20:09:51 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Wed Mar 27 2024 18:45:05 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:46:00 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
 debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 224.6202540397644ms.
+debug: Target(preview) ends with cost 323.1944790482521ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 08:43:35 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:44:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Wed Mar 27 2024 18:46:00 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:46:54 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 168.27677500247955ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 08:43:35 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:44:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Wed Mar 27 2024 18:46:00 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:46:54 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 164.50271099805832ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 08:44:36 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:44:58 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Wed Mar 27 2024 18:46:54 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:47:25 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 193.22261703014374ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 08:44:36 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 08:44:58 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts.
+debug: Detected change: file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts. Last mtime: Wed Mar 27 2024 18:46:54 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29, Current mtime: Wed Mar 27 2024 18:47:25 GMT+0800 (中国标准时间)@ac2ff9fa-5101-4a5a-b79d-510acee57d29
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E6%89%93%E7%81%AB%E7%AE%AD/assets/scripts/GameRoot.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 228.0602269768715ms.

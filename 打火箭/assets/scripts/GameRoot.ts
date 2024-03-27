@@ -23,7 +23,7 @@ enum PHY_TAG {
 
 @ccclass('GameRoot')
 export class GameRoot extends Component {
-    //property 在组件的属性中声明节点 在编译器中能够显示
+    //property 在组件的属性中声明节点 在编译器中能够显示, 游戏中所有对象都会在这里声明
     @property(Node) player: Node = null!;
     @property(Node) hensRoot: Node = null!;
     @property(Node) eggsRoot: Node = null!;
@@ -55,6 +55,11 @@ export class GameRoot extends Component {
         this.openInputEvent();
         this.startCreateEggs();
         this.openColloder2DEvent();
+        // director.preloadScene("pushBox", function () {
+        //     console.log('Next scene preloaded');
+        // });
+        // director.loadScene("pushBox");
+
     }
 
     update(deltaTime: number) {
@@ -65,6 +70,7 @@ export class GameRoot extends Component {
             const y = element.position.y - 150 * deltaTime;
             element.setPosition(x, y, 0);
             if (y < -window.innerHeight) {
+                // 销毁预制体
                 element.destroy();
             }
         }
@@ -108,12 +114,12 @@ export class GameRoot extends Component {
         tween(color)
         .to(2, {x: 10, y: 150, z: 0}, {
             onUpdate: (target, ratio) => {
-                this.scoreLabel.color = new Color(color.x, color.y, color.z);
+                // this.scoreLabel.color = new Color(color.x, color.y, color.z);
             }
         })
         .to(2, {x: 120, y: 0, z: 100}, {
             onUpdate: (target, ratio) => {
-                this.scoreLabel.color = new Color(color.x, color.y, color.z);
+                // this.scoreLabel.color = new Color(color.x, color.y, color.z);
             }
         })
         .union()
@@ -193,7 +199,8 @@ export class GameRoot extends Component {
                     console.log('player 碰到了 TAG_DOUBLECAR');
                     // 执行 UfoHit 相关的处理逻辑
                     // 执行向左跳起并翻滚的效果
-                    selfCollider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+                        director.loadScene("pushBox");
+                        // selfCollider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
                     if (!this.isJumping) {
                         this.playJumpAndRollEffect(selfCollider);
                     }
@@ -339,11 +346,12 @@ export class GameRoot extends Component {
                 },
                 easing: 'quadIn'
             })
-            .union()
+            .union() // 合并两个
             .repeat(1)
             .start();
     }
 
+    // 向前/后跳跃
     jumpDownAnimation(dir: 1 | -1) {
         this.makeMoveStepIndex(dir);
         const targetX = window.innerHeight / this.hensPosXArr.length;

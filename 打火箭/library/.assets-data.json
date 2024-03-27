@@ -121,7 +121,7 @@
     }
   },
   "6d06ad4a-5f54-4d83-bcaf-726894183362": {
-    "url": "db://assets/scene.scene",
+    "url": "db://assets/scenes/scene.scene",
     "value": {
       "depends": [
         "6d06ad4a-5f54-4d83-bcaf-726894183362",
@@ -233,6 +233,26 @@
       "depends": [
         "a30b3cad-7002-45de-8a51-2b6c0f35dfbd@6c48a"
       ]
+    }
+  },
+  "32f7f78a-86d3-4e90-9fc0-d9b51da35e60": {
+    "url": "db://assets/prefab/scene-2d.scene",
+    "value": {}
+  },
+  "af0af8f8-46c7-475d-8025-08cb85dc33f9": {
+    "url": "db://assets/scenes",
+    "value": {}
+  },
+  "7c33ce09-a6db-4d69-9b89-05b3008242a3": {
+    "url": "db://assets/scenes/pushBox.scene",
+    "value": {
+      "depends": [
+        "7c33ce09-a6db-4d69-9b89-05b3008242a3",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": []
     }
   }
 }

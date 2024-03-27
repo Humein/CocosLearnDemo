@@ -1,11 +1,11 @@
-debug: Tue, 19 Sep 2023 12:14:06 GMT
-debug: Project: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/事件系统
+debug: Fri, 22 Sep 2023 10:10:48 GMT
+debug: Project: /Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 2.4538139700889587ms.
+debug: Loading cache costs 2.6225500106811523ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.8425959944725037ms.
+debug: Loading cache costs 2.0627399682998657ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -28,30 +28,30 @@ debug: Reset databases. Enumerated domains: [
   },
   {
     "root": "db://assets/",
-    "physical": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/事件系统/assets"
+    "physical": "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets"
   }
 ]
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/"
+    "db://assets/": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/"
   }
 }
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/"
+    "db://assets/": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/"
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 15.691798985004425ms.
+debug: Fetch asset-db cost: 11.49156105518341ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 4
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -82,30 +82,30 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 430.6788589954376ms.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 322.9485410451889ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -126,46 +126,46 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
-debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 303.7378669977188ms.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
+debug: Inspect file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 283.1416280269623ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 935.6057639718056ms.
+debug: Fetch asset-db cost: 914.45605301857ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 4
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:32 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:27 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
-debug: Target(editor) ends with cost 39.81705802679062ms.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
+debug: Target(editor) ends with cost 39.51860296726227ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:32 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:27 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
-debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
-debug: Target(preview) ends with cost 47.5324569940567ms.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts.
+debug: Resolve file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts.
+debug: Target(preview) ends with cost 45.61406099796295ms.

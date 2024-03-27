@@ -1,7 +1,19 @@
-9-19-2023 20:13:51 - log: Load engine in /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine
-9-19-2023 20:13:51 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-9-19-2023 20:13:51 - log: Register native engine in /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-9-19-2023 20:14:25 - info: [Scene] [PHYSICS]: using builtin.
-9-19-2023 20:14:25 - log: [Scene] Cocos Creator v3.8.0
-9-19-2023 20:14:25 - info: [Scene] Forward render pipeline initialized.
-9-19-2023 20:14:25 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+9-22-2023 18:10:35 - warn: failed to connect login server due to request timeout
+9-22-2023 18:10:35 - log: Load engine in /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine
+9-22-2023 18:10:36 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+9-22-2023 18:10:36 - log: Register native engine in /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+9-22-2023 18:11:05 - info: [Scene] [PHYSICS]: using builtin.
+9-22-2023 18:11:06 - log: [Scene] Cocos Creator v3.8.0
+9-22-2023 18:11:06 - info: [Scene] Forward render pipeline initialized.
+9-22-2023 18:11:06 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+9-22-2023 18:11:08 - error: [Window] Cannot read property 'top' of nullTypeError: Cannot read property 'top' of null
+    at /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/share/animation-editor.ccc:1:58921
+    at Array.forEach (<anonymous>)
+    at AnimationEditor.calcDisplayNodes (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/share/animation-editor.ccc:1:58638)
+    at AnimationEditor.calcDisplayClips (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/share/animation-editor.ccc:1:59567)
+    at AnimationEditor.clearClips (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/share/animation-editor.ccc:1:55870)
+    at AnimationEditor.updateClips (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/share/animation-editor.ccc:1:53970)
+    at AnimationEditor.updateNode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/share/animation-editor.ccc:1:43242)
+    at async Object._onChangeNode (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/index.ccc:1:3501)
+    at async Object.scene:change-node (/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/builtin/animator/dist/panel/index.ccc:1:7979)
+    at async /Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/panel/lib/element.ccc:1:5030

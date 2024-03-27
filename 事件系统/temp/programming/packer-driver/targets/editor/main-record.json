@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 15031.42653298378,
+      "mTimestamp": 12984.244496107101,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 32050.26765102148,
+      "mTimestamp": 27923.06069600582,
       "chunkId": "52c5783aa6cb269f6547b0da83ec062fe79b746b",
       "imports": [
         {
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts",
+          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -646,35 +646,35 @@
             },
             "end": {
               "line": 5,
-              "column": 353
+              "column": 368
             }
           }
         },
         {
-          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts",
+          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 369
+              "column": 384
             },
             "end": {
               "line": 5,
-              "column": 527
+              "column": 557
             }
           }
         },
         {
-          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts",
+          "value": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 543
+              "column": 573
             },
             "end": {
               "line": 5,
-              "column": 707
+              "column": 752
             }
           }
         }
@@ -691,21 +691,21 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts"
+            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts"
+            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts"
+            "url": "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts"
           },
           "messages": []
         }
@@ -1341,6 +1341,162 @@
         "uuid": "cd09523d-1235-4588-b8ad-d3e488bed431"
       },
       "chunkId": "baa4b8393e63a3118968ba544b46815c177aeef1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 73
+            },
+            "end": {
+              "line": 1,
+              "column": 77
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts": {
+      "mTimestamp": {
+        "mtime": 1695110489205.1396,
+        "uuid": "dc3d0914-3888-46d5-8e12-744344699c9f"
+      },
+      "chunkId": "fd46ebf3cb6ba47a7a4f26cabcb0ec79a69b00c7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts": {
+      "mTimestamp": {
+        "mtime": 1694501662636.8762,
+        "uuid": "78dd1f8b-c796-4812-977e-a8cb476a6b8a"
+      },
+      "chunkId": "b5792de41d3d667c3a514fee30032d5e6d518c2a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts": {
+      "mTimestamp": {
+        "mtime": 1694576283931.236,
+        "uuid": "cd09523d-1235-4588-b8ad-d3e488bed431"
+      },
+      "chunkId": "a131184fbb5d5f1aa51606053efd1b2b99a42884",
       "imports": [
         {
           "value": "cc"

@@ -120,6 +120,42 @@
       },
       "timestamp": 1695110491446
     },
+    "ed850a949e8a0112339d33e2778ac0e54bc9ed5c": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cee638a986ad8fae09398db255647defcaa6612a"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1695125662335
+    },
+    "bcca4ceaf8190209f955a40f7428c5e8d39d055d": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cee638a986ad8fae09398db255647defcaa6612a"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1695125662369
+    },
+    "baa4b8393e63a3118968ba544b46815c177aeef1": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cee638a986ad8fae09398db255647defcaa6612a"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1695125662452
+    },
     "cee638a986ad8fae09398db255647defcaa6612a": {
       "imports": {
         "__unresolved_0": {
@@ -326,9 +362,9 @@
           "messages": []
         }
       },
-      "timestamp": 1695125662117
+      "timestamp": 1695377462813
     },
-    "ed850a949e8a0112339d33e2778ac0e54bc9ed5c": {
+    "fd46ebf3cb6ba47a7a4f26cabcb0ec79a69b00c7": {
       "imports": {
         "cc": {
           "resolved": {
@@ -338,9 +374,9 @@
           "messages": []
         }
       },
-      "timestamp": 1695125662335
+      "timestamp": 1695377462980
     },
-    "bcca4ceaf8190209f955a40f7428c5e8d39d055d": {
+    "b5792de41d3d667c3a514fee30032d5e6d518c2a": {
       "imports": {
         "cc": {
           "resolved": {
@@ -350,9 +386,9 @@
           "messages": []
         }
       },
-      "timestamp": 1695125662369
+      "timestamp": 1695377463006
     },
-    "baa4b8393e63a3118968ba544b46815c177aeef1": {
+    "a131184fbb5d5f1aa51606053efd1b2b99a42884": {
       "imports": {
         "cc": {
           "resolved": {
@@ -362,7 +398,7 @@
           "messages": []
         }
       },
-      "timestamp": 1695125662452
+      "timestamp": 1695377463068
     },
     "52c5783aa6cb269f6547b0da83ec062fe79b746b": {
       "imports": {
@@ -376,34 +412,34 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "ed850a949e8a0112339d33e2778ac0e54bc9ed5c"
+            "id": "fd46ebf3cb6ba47a7a4f26cabcb0ec79a69b00c7"
           },
           "messages": []
         },
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
-            "id": "bcca4ceaf8190209f955a40f7428c5e8d39d055d"
+            "id": "b5792de41d3d667c3a514fee30032d5e6d518c2a"
           },
           "messages": []
         },
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "baa4b8393e63a3118968ba544b46815c177aeef1"
+            "id": "a131184fbb5d5f1aa51606053efd1b2b99a42884"
           },
           "messages": []
         }
       },
-      "timestamp": 1695125663933
+      "timestamp": 1695377464481
     }
   },
   "entries": {
     "cce:/internal/x/cc": "cee638a986ad8fae09398db255647defcaa6612a",
     "cce:/internal/x/prerequisite-imports": "52c5783aa6cb269f6547b0da83ec062fe79b746b",
     "file:///Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "d5608b38b037f8fab3d80ad8b6997514f74129c4",
-    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts": "ed850a949e8a0112339d33e2778ac0e54bc9ed5c",
-    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts": "bcca4ceaf8190209f955a40f7428c5e8d39d055d",
-    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts": "baa4b8393e63a3118968ba544b46815c177aeef1"
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/GameRoot.ts": "fd46ebf3cb6ba47a7a4f26cabcb0ec79a69b00c7",
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/NodePosition.ts": "b5792de41d3d667c3a514fee30032d5e6d518c2a",
+    "file:///Users/zhangxinxin/XXWorkSpace/Github%E9%A1%B9%E7%9B%AE/Cocos%20%E9%A1%B9%E7%9B%AE/CocosLearnDemo/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/assets/Script/item_pic_nodeEvent.ts": "a131184fbb5d5f1aa51606053efd1b2b99a42884"
   }
 }

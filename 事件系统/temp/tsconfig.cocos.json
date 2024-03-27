@@ -15,7 +15,7 @@
         "/Applications/Cocos/Creator/3.8.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/事件系统/assets/*"
+        "/Users/zhangxinxin/XXWorkSpace/Github项目/Cocos 项目/CocosLearnDemo/事件系统/assets/*"
       ]
     },
     "experimentalDecorators": true,
